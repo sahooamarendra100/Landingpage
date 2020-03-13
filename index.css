@@ -1,0 +1,103 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+body{
+    background-color: #eee;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fifth{
+    height: 292px;
+    width: 292px;
+   border:1px solid black;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.footer > div{
+    height:2cm;
+    width: 30cm;
+    background-color: silver;
+}
+.s{
+    position: absolute;
+    width: 292px;
+    height:1.5cm;
+    background-color: silver;
+}
+.t{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b{
+   height: 0.7cm;
+   width: 7.5cm;
+}
+.but {
+    display: flex;
+    flex-direction: column;
+	width: 3cm;
+	height: 0.7cm;
+	background-color: yellow;
+	color:black;
+	font-weight: lighter;
+	border-style: none;
+}
+ .features{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+ }
+.ten{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+.ten > div{
+    height: 1.5cm;
+    width: 25cm;
+    background-color: silver;
+}
+.z{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.y{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
